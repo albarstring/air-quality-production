@@ -1,0 +1,32 @@
+{
+  "best_model": "LightGBM",
+  "features": [
+    "pm25",
+    "pm10",
+    "co",
+    "no2",
+    "o3",
+    "temperature",
+    "humidity",
+    "wind_speed",
+    "precipitation",
+    "pm25_pm10_ratio",
+    "heat_index",
+    "total_polutan",
+    "is_rush_hour",
+    "is_daytime",
+    "is_weekend",
+    "sin_hour",
+    "cos_hour",
+    "sin_weekday",
+    "wind_humidity_interact"
+  ],
+  "metrics": {
+    "MAE": 3.441,
+    "RMSE": 4.287,
+    "R2": 0.9651
+  },
+  "trained_at": "2026-05-17T22:36:48.221636",
+  "n_train": 2304,
+  "n_test": 576
+}
